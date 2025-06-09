@@ -1,0 +1,74 @@
+.body-container {
+    background-color: black;
+    margin: 0;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.blog-container {
+    background-color: #ffffff;
+    color: #333333;
+    height: 91vh;
+    border-radius: 10px;
+}
+
+.form-btn {
+    border: 0;
+    background: transparent;
+    font-size: 1rem;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    height: 60px;
+    width: 100%;
+    text-decoration: none;
+    color: #333333;
+
+    &:hover, &:focus {
+        background-color: #2563e8;
+        color: white;
+    }
+}
+
+.post-inputs {
+    min-height: 40px;
+    max-height: 300px;
+    border-radius: 10px;
+    border: 0;
+    width: 100%;
+
+    &:hover {
+        border: 1px solid black;
+    }
+}
+
+.form-btn-post {
+     border: 0;
+    font-size: 1rem;
+    background: transparent;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+
+    &:hover, &:focus {
+        background-color: #2563e8;
+        color: white;
+    }
+}
+
+.form-edit-btn {
+    border: 0;
+    font-size: 1rem;
+    background: transparent;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+
+    &:hover, &:focus {
+        background-color: #2563e8;
+        color: white;
+    }
+}
